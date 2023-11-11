@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #163c64;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-top: 20px;
+}
+
+.output {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #28a745;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+option {
+  font-size: 16px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(48, 44, 44);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(206, 31, 31, 0.1);
+}
+
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-mb-2 {
+  font-size: 32px;
+  color: #b6a4f7;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.mt-3 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #f33c3c;
+}
+
+.btn-primary {
+  background-color: #74b2f5;
+  border-color: #74b2f5;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.label-mb-3 {
+  font-size: 20px;
+  color: #bef7a4;
+}
+
+.label-mb-4 {
+  font-size: 20px;
+  color: #f2f7a4;
+}
